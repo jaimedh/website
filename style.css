@@ -11,7 +11,7 @@
  body {
   color: black;
   font-size: 14px;
-  background-color: grey;
+  background-color: #59a6a6;
   margin: 50px;
 }
 
@@ -20,10 +20,10 @@
   text-decoration: underline;
 }
 h1 {
-  font-size: 36;
-  color: blue;
+  font-size: 26;
+  color: black;
   font-family: Helvetica, Arial;
-  font-weight: 900;
+  font-weight: 400;
   text-align: left;
 }
 
@@ -43,7 +43,7 @@ h1, h2 {
 }
 
 header {
-  color: lightblue;
+  color: white;
   font-family: 'Sansita Swashed', cursive;
 }
 
