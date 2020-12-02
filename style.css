@@ -11,13 +11,14 @@
  body {
   color: black;
   font-size: 14px;
-  background-color: #59a6a6;
+  background-color: #409fbf;
   margin: 50px;
 }
 
 .title {
   font-size: 48px;
-  text-decoration: underline;
+  text-decoration:;
+  font-family: 'Source Code Pro', monospace;
 }
 h1 {
   font-size: 26;
@@ -79,6 +80,10 @@ a {
 }
 a:hover {
   text-decoration: underline;
+}
+
+ol, li {
+  line-height: 2;
 }
 
 ul, ol {
