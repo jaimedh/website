@@ -1,4 +1,4 @@
-/* Website Stylea */
+/* Website Styles */
 
 *{
   font-size: 100%;
@@ -13,6 +13,13 @@
   font-size: 14px;
   background-color: #409fbf;
   margin: 50px;
+}
+
+.spaghetti {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 .title {
@@ -44,7 +51,7 @@ h1, h2 {
 }
 
 header {
-  color: white;
+  /* color: white; */
   font-family: 'Sansita Swashed', cursive;
 }
 
@@ -56,7 +63,7 @@ section
   {color: darkgreen;
     font-family: 'DM Sans', sans-serif;
     border: 1px solid gainsboro;
-    background-color: white;
+    /* background-color: ; */
     margin: 30px;
     padding: 30 px;
 }
