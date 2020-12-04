@@ -60,6 +60,7 @@ font-size: 14px;
 padding: 30px; */
 }
 
+
 .banner {
   background-image: url(images/banner.jpg);
   height: 400px;
@@ -101,34 +102,44 @@ padding: 30px; */
   padding-left: 10%;
 }
 
+
 .veggies {
   padding-top: 50px;
   padding-right:100px;
 }
 
-/* .title {
-  padding:20px;
-} */
+
+.cheddar {
+  text-align: center;
+}
+
+
+.diet {
+  align: justify;
+  padding-left: 400px;
+}
+
 
 h1{
   font-size: 36px;
   color: ;
   margin: 30px;
   padding: 30px;
-
 }
 
-.photos {
-  max-width: 40%;
-  max-height: 40%;
-}
 
 .prawn {
   align: justify;
 }
 
+
 img {
   max-width: 50%;
   max-height: 50%;
   padding: 10px;
+}
+
+
+footer {
+    margin-top: 200px;
 }
