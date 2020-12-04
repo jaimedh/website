@@ -9,7 +9,7 @@
 
 body {
   /* background-image: url(images/banner.jpg); */
-  background-size: 100%;
+  /* background-size: 100%; */
 }
 
 .spaghetti {
@@ -29,7 +29,7 @@ body {
 
 .container {
   max-width: 100%;
-  margin:  auto;
+  margin: 0 auto;
   background-repeat: repeat;
   display: grid;
   grid-template-columns: 30% 60%;
@@ -95,8 +95,8 @@ header h1 {
   text-align: center;
 }
 
-section
-  {color: darkgreen;
+section {
+  color: darkgreen;
     font-family: 'DM Sans', sans-serif;
     border: 1px solid gainsboro;
     background-color: ;
@@ -104,9 +104,6 @@ section
     padding: 30 px;
 }
 
-section li a {
-  color:red
-}
 
 /* p {
   line-height: 2;
