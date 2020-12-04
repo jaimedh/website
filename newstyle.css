@@ -1,0 +1,49 @@
+/* Website styles */
+
+* {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  box-sizing: content-box;
+}
+
+body {
+  background-image: url(images/just-waves.png);
+  background-size: 100%;
+}
+
+.banner {
+  background-image: url(images/banner.jpg);
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  background-repeat: repeat;
+  display: grid;
+  grid-template-columns: 30% 60%;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.container2 {
+  padding-right: 10%;
+}
+
+.description {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
+
+}
+
+img {
+  width: 100%;
+  padding: 10%;
+}
