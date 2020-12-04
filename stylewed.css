@@ -1,0 +1,134 @@
+* {
+  font-size: 100%;
+  /* margin: auto; */
+  /* line-height: 1; */
+  text-algin: justify;
+  box-sizing: content-box;
+}
+
+header {
+  font-size: 45px;
+  /* padding: 30px; */
+}
+
+background {
+  size:100%;
+}
+
+/* start of menu  */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+html {
+  height:100%;
+  /* background-image: linear-gradient(to right top, #8e44ad 0%, #3498db 100%); */
+}
+nav {
+  max-width: 100%;
+  mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
+  margin: 0 auto;
+  padding: 60px 0;
+}
+nav ul {
+  text-align: center;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  padding: 28px;
+  font-family: "Open Sans";
+  text-transform:uppercase;
+  color: rgba(0, 35, 122, 0.5);
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+}
+nav ul li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 35, 122, 0.7);
+}
+/* end of menu */
+
+
+body {
+font-family: 'Comfortaa', cursive;
+font-family: 'Source Code Pro', monospace;
+font-size: 14px;
+/* margin: 50px;
+padding: 30px; */
+}
+
+.banner {
+  background-image: url(images/banner.jpg);
+  height: 400px;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 0px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  background-repeat: repeat;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: start;
+  justify-content: space-between;
+  padding-left: 100px;
+}
+
+.container img {
+  max-width: 100%;
+  padding-right: 30px;
+}
+
+.container2 {
+  padding-left:20px;
+}
+
+.description {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  padding-top: 10%;
+  padding-left: 10%;
+}
+
+.veggies {
+  padding-top: 50px;
+  padding-right:100px;
+}
+
+/* .title {
+  padding:20px;
+} */
+
+h1{
+  font-size: 36px;
+  color: ;
+  margin: 30px;
+  padding: 30px;
+
+}
+
+.photos {
+  max-width: 40%;
+  max-height: 40%;
+}
+
+.prawn {
+  align: justify;
+}
+
+img {
+  max-width: 50%;
+  max-height: 50%;
+  padding: 10px;
+}
